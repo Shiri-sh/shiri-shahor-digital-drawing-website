@@ -1,0 +1,45 @@
+#root {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+body{
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Itim', cursive;
+  margin: auto;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* a1c181-ירוק בהיר
+233d4d-כחול
+fe7f2d-כתום
+fcca46-צהוב
+/* 619b8a-טורקיז */
+/* font-family: "Barriecito", system-ui;
+font-family: "Playwrite AU SA", cursive;
+font-family: "Homemade Apple", cursive;
+font-family: "Pacifico", cursive;
+font-family: "Ms Madi", cursive;
+font-family: "Princess Sofia", cursive; */ 

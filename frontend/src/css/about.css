@@ -1,0 +1,67 @@
+.about{
+ display: block;
+ background-color: #233d4dc9;
+ flex-direction: row;
+ width: 100%;
+ padding: 0;
+}
+
+.text,
+.line {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0;
+    width: 30%;
+    margin: 0 auto;
+}
+.line{
+    color: #ffffff;
+    text-shadow: 2px 5px 5px #000000;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+    
+}
+.text p{
+font-family: "Playwrite AU SA", cursive; 
+
+}
+.line h2{
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+}
+.line p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: "Playwrite AU SA", cursive;
+}
+@media (max-width: 667px) {
+    .about{
+        background-color: #233d4dc9;
+        flex-direction: row;
+        width: 100%;
+       }
+       
+       .text,
+       .line {
+           display: flex;
+           flex-direction: column;
+           padding: 20px;
+           color: #ffffff;
+           padding: 0;
+           width: 90%;
+       }
+  }
+/* #a1c181-ירוק בהיר
+#233d4d-כחול
+#fe7f2d-כתום
+#fcca46-צהוב
+#619b8a-טורקיז */
+
+/* font-family: "Barriecito", system-ui;
+font-family: "Playwrite AU SA", cursive;
+font-family: "Princess Sofia", cursive; */ 

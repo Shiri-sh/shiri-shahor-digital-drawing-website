@@ -1,0 +1,48 @@
+.comment{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: #ccc;
+    border-radius: 10px;
+    border: #ffffff 1px solid;
+}
+
+.comment p{
+    margin: 0;
+}
+
+.comment strong{
+    font-weight: bold;
+    color: #ab4f12;
+    font-family: '', cursive;
+
+}
+.addComment {
+    display: flex;
+    margin:10px;
+    border-radius: 10px;
+}
+.addComment input{
+    font-family: 'Itim', cursive;
+    border-radius: 10px;
+    padding: 8px;
+    border: #ab4f12 3px solid;
+}
+@media (max-width: 667px) {
+    .comment{
+        border: 1px solid #ccc;
+        padding: 4px;
+        margin-bottom: 7px;
+        display: flex;
+        width: 100%;
+    }
+    .addComment input{
+        width: 100%;
+    }
+}
+  /* #a1c181-ירוק בהיר
+#233d4d-כחול
+#fe7f2d-כתום
+#fcca46-צהוב
+#619b8a-טורקיז */

@@ -1,0 +1,84 @@
+/* Contact.css */
+
+.container {
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: 'Itim', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #a1c18162;
+  }
+  
+  .form-card {
+    background-color: rgba(255, 255, 255, 0.71);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  select, textarea, input[type="file"] {
+    margin-top: 5px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 8px 10px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  
+  button.submit-btn{
+    background-color: rgba(249, 245, 245, 0.71);
+    box-shadow: none;
+    color: #233d4d;
+    border-radius: 10px;
+
+  }
+  button.submit-btn:hover{
+    color: #b35110;
+    border-radius: 10px;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+
+  }
+  .preview-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .preview-container h3 {
+    color: #333;
+  }
+  
+  .preview-container img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  /* #a1c181-ירוק בהיר
+#233d4d-כחול
+#fe7f2d-כתום
+#fcca46-צהוב
+#619b8a-טורקיז */

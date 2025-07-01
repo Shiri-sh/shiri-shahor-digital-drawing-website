@@ -1,0 +1,133 @@
+/* .orders {
+    padding: 2rem;
+    color: #f0f0f0;
+    min-height: 100vh;
+    box-shadow: 0 4px, 10px rgba(0, 0, 0, 0.1);
+    background-color: #a1c18162;
+   
+  }
+  
+  .orders h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fefefe;
+    color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px, 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    padding: 0.8rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .orders-table th {
+    background-color: #a1c181;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .orders-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .ref-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  /* #a1c181-ירוק בהיר
+#233d4d-כחול
+#fe7f2d-כתום
+#fcca46-צהוב
+#619b8a-טורקיז */
+.filter{
+  display: flex;
+  margin: 10px;
+  width: auto;
+
+}
+.filter select{
+  border-radius: 10px;
+  padding: 8px;
+  border: #ab4f12 1px solid;
+  width: auto;
+}
+.filter label{
+  margin: 10px;
+  color: #000000;
+}
+.orders {
+  padding: 1rem;
+  background-color: #a1c1818e;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem
+}
+
+.filter {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.orders-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.order-card {
+  background-color: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-left: 5px solid #a1c181;
+  font-size: 0.95rem;
+  width: 250px;
+}
+.order-card:hover {
+  border-left: 5px solid #bc5714;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.892);
+}
+.order-card strong {
+  color: #bc5714;
+}
+
+.order-card img.ref-img {
+  width: 100%;
+  max-width: 100px;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  border: 2px solid #a1c181;
+}
+
+/* מובייל */
+@media (max-width: 667px) {
+  .order-card {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    width: 100%;
+  }
+
+  .filter {
+    font-size: 0.9rem;
+  }
+}

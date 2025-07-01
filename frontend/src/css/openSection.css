@@ -1,0 +1,63 @@
+.openSection{
+    display: flex;
+    justify-content:start;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 1px;
+    border-radius: 0;
+    box-shadow: rgba(27, 26, 25, 0.858) 1px 5px 8px;
+
+}
+.openSection p{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px, 10px;
+    color: #000000;
+     background-color: #ffffff; 
+    /* box-shadow: rgb(99, 98, 98) 1px 5px 8px; */
+    font-family: 'Playwrite AU SA', cursive;
+    font-size: large;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px, 10px;
+    color: #619b8a;
+     background-color: #ffffff; 
+    font-family: 'Itim', cursive;
+
+}
+button:hover{
+    /* box-shadow: rgba(27, 26, 25, 0.858) 1px 5px 8px; */
+    background-color: #ffffff;
+    color: #b35110;
+    transform: scale(1.03);
+}
+.icon{
+    cursor: pointer;
+}
+@media (max-width: 667px) {
+    .openSection{
+        display:block;
+        justify-content:start;
+        background-color: #ffffff;
+        margin: 0;
+        padding: 8px;
+        border-radius: 0;
+        box-shadow: rgba(27, 26, 25, 0.858) 1px 5px 8px;
+    
+    }
+    .openSection p{
+        margin: 1px;
+        padding: 1px; 
+    }
+    button{
+        margin: 2px;
+        padding: 7px; 
+    }
+}
+/* #a1c181-ירוק בהיר
+#233d4d-כחול
+#fe7f2d-כתום
+#fcca46-צהוב
+#619b8a-טורקיז */

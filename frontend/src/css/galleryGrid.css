@@ -1,0 +1,130 @@
+.galleryGrid {
+    padding: 2rem;
+    background-color: #a1c1818e;
+    min-height: 100vh;
+
+  }
+  
+  .galleryGrid h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: var(--blue-dark);
+  }
+  
+  .galleryGrid .galleryCardsWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .galleryCard {
+    background: #a1c181;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    border: 2px solid var(--turquoise);
+    max-width: 400px;
+  }
+  
+  .galleryCard:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .galleryCard img {
+    
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 3px solid var(--turquoise);
+  }
+  
+  .galleryCard h2 {
+    color: #233d4d;
+    font-size: 1.4rem;
+    margin: 0.5rem;
+    color: var(--blue-dark);
+  }
+  
+  .galleryCard p {
+    font-size: 1rem;
+    color: var(--orange);
+    margin: 0.5rem;
+  }
+  
+  /* Fullscreen image viewer */
+  .fullscreenOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(35, 61, 77, 0.95); /* darkened blue */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .fullscreenOverlay img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px var(--yellow);
+    animation: fadeIn 0.3s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  .active{
+    background-color: #ffffff;
+    color: #b35110;
+
+  }
+
+  .fullscreenComments {
+    flex: 1;
+    background-color: #c0baba;
+    overflow-y: auto;
+    padding: 1rem;
+    max-width: 20%;
+    max-height: 80%;
+    border-left: 2px solid #a1c181;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  @media (max-width: 667px) {
+    .fullscreenOverlay {
+      position: fixed;
+      background: rgba(35, 61, 77, 0.801); /* darkened blue */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .fullscreenOverlay img {
+      max-width: 100%;
+      max-height: 60%;
+      border-radius: 12px;
+      box-shadow: 0 0 20px var(--yellow);
+      animation: fadeIn 0.3s ease;
+    }
+    .fullscreenComments {
+      padding: 20px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+  }
+/* #a1c181-ירוק בהיר
+#233d4d-כחול
+#fe7f2d-כתום
+#fcca46-צהוב
+#619b8a-טורקיז */
